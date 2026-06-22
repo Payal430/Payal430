@@ -58,11 +58,6 @@
 
 <br>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Payal430&layout=compact&theme=dracula" />
-</div>
-
-<br>
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Payal430/Payal430/output/github-contribution-grid-snake.svg" alt="Snake animation" />
