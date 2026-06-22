@@ -1,29 +1,12 @@
 name: Generate Activity Graph
 
 on:
-  schedule:
-    - cron: "0 0 * * *"
   workflow_dispatch:
-
-permissions:
-  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Generate Activity Graph
-        uses: Ashutosh00710/github-readme-activity-graph@v1.0.0
-        with:
-          username: Payal430
-          theme: dracula
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: activity-graph-output
-          publish_dir: .
+      - name: Checkout
+        uses: actions/checkout@v4
