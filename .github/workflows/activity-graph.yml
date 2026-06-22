@@ -15,15 +15,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: ashutosh00710/github-readme-activity-graph@main
+      - name: Generate Activity Graph
+        uses: Ashutosh00710/github-readme-activity-graph@v1.0.0
         with:
-          github_username: Payal430
+          username: Payal430
           theme: dracula
 
-      - name: Push graph
-        uses: crazy-max/ghaction-github-pages@v4
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          target_branch: activity-graph-output
-          build_dir: .
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: activity-graph-output
+          publish_dir: .
