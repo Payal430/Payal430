@@ -70,10 +70,6 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Payal430" alt="Payal's GitHub streak" height="165"/>
 </p>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Payal430&theme=flat&no-frame=true&column=4&margin-w=10&margin-h=10" alt="Payal's GitHub trophies" />
-</p>
-
 ### 📈 Contribution Activity
 
 <p align="center">
