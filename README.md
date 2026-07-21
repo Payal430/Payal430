@@ -67,7 +67,7 @@
 
 <p align="center">
   <img src="./profile/stats.svg" alt="Payal's GitHub stats" height="165"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Payal430" alt="Payal's GitHub streak" height="165"/>
+  <img src="./profile/streak.svg" alt="Payal's GitHub streak" height="165"/>
 </p>
 
 ### 📈 Contribution Activity
